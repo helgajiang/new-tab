@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+body {
+	background-color: white;
+	color: black;
+	font-family: 'Cutive Mono';
+	font-size: 80px;
+}
+
+.center {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
