@@ -1,9 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
-
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 body {
+
 	color: white;
-	font-family: 'Cutive Mono';
+	/*font-family: 'Cutive Mono';*/
+/*	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/	
+    font-family: 'Inconsolata';
+    font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+
 	font-size: 80px;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 1em;
+	margin:0;
 }
 
 .center {
@@ -14,7 +29,7 @@ body {
 }
 .colour-info {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
