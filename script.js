@@ -1,3 +1,6 @@
+$(document).ready(function () {
+   startTime();
+});
 function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -15,7 +18,3 @@ function checkTime(i) {
     };  // add zero in front of numbers < 10
     return i;
 }
-// document.getElementById('txt').onLoad = count;
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('test').innerHTML = 'test';
-});
