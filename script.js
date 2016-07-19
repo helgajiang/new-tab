@@ -30,7 +30,7 @@ function changeColour(){
     document.body.style.backgroundColor = "#" + hexCode;
 
     var pantoneName = pantoneColours[rand][0];
-    var rgbCode = pantoneColours[rand][2] + "," + pantoneColours[rand][3] + "," + pantoneColours[rand][4];
+    var rgbCode = pantoneColours[rand][2] + ", " + pantoneColours[rand][3] + ", " + pantoneColours[rand][4];
 
     document.getElementById("pantone").innerHTML = "" + pantoneName;
     document.getElementById("hex").innerHTML = "#" + hexCode;
