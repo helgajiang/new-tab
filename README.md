@@ -1,5 +1,5 @@
 # Pantone New Tab
-A minimalist new tab chrome extension that renders a random Pantone C colour with its corresponding Pantone name, Hex, and RGB value.
+A new tab chrome extension that renders a clock as well as a random Pantone C colour with its corresponding Pantone name, Hex, and RGB value.
 
 
 All of the Pantone C colours in a 2D javascript array including name, hex, and rgb values:
